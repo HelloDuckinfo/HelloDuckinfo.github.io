@@ -1,3 +1,3 @@
-# HelloDuckinfo.github.io
+HelloDuckinfo.github.io
 
 Ai Can eat your 🧠!!!
