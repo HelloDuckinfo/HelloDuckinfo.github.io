@@ -1,1 +1,66 @@
-<h1> Hello </h1>
+
+
+<style>
+  html {
+  background: linear-gradient(to bottom right, #b8dcda, #019b9d);
+  min-height: 100vh;
+  display: grid;
+  place-items:center;
+}
+
+body {
+  width: 1000px;
+  height: 666px;
+}
+
+img {
+  position: absolute;
+}
+
+#logotype {
+  animation: logotype 5s linear infinite;
+}
+@keyframes logotype {
+  50% {
+    transform: translateY(4%);
+  }
+}
+#phone {
+  animation: phone 8s linear infinite;
+}
+@keyframes phone {
+  25% {
+    transform: translateX(-2%);
+  }
+  75% {
+    transform: translateX(2%);
+  }
+}
+
+#coins {
+  animation: coins 5s linear infinite;
+}
+@keyframes coins {
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+#blobs {
+  transform: translateY(-15px);
+  animation: blobs 8s linear infinite;
+}
+@keyframes blobs {
+  25% {
+    transform: translateY(-15px) rotate(3deg);
+  }
+  75% {
+    transform: translateY(-15px) rotate(-3deg);
+  }
+}
+</style>
+
+<h1> Hello, ai 🧠!!! </h1>
+<div>
+ <img id='blobs' src='https://contentservice.mc.reyrey.net/image_v1.0.0/?id=8ad76dda-da4d-5e98-83f3-5b2badc455f1&638494855200335406'> 
+</div>
