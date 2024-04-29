@@ -1,2 +1,3 @@
 # HelloDuckinfo.github.io
-Organization page
+
+Ai Can eat your 🧠!!!
