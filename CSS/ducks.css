@@ -1,0 +1,112 @@
+ /* Hello Duck*/
+
+ /*Style*/
+
+@font-face {
+    font-family: FormulaCondensed-Bold;
+    src: url(/FONTS/FormulaCondensed-Bold.otf);
+    }
+    html {
+        box-sizing: border-box; /* Ensures consistent sizing */
+      }
+      
+      body {
+        margin: 0;
+        padding: 0%;
+        display: flex; /* Use flexbox for centering */
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+        background: linear-gradient(to bottom right, orange, yellow);
+        height: 100vh;
+      }
+      
+      h1 {
+
+      }
+      
+      img {
+
+        max-width: 350%;
+        height: auto; /* Maintain aspect ratio */
+      }
+      
+      .hd_h1 {
+    
+        margin-top:-15em;
+        padding-bottom: 2em;
+        font-family: 'FormulaCondensed-Bold';
+        font-weight: 500;
+        color: #fff;
+        font-size: 10em;
+        text-align: center; /* Center the text within the h1 */
+        font-size: 3rem;
+        color: #fff;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+
+      .center_div_duck {
+        position: relative; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* Add width and height if needed */
+      }
+         
+      .center_div_duck img {
+    
+        position: absolute; /* Posiciona los elementos de forma absoluta */
+    }
+
+
+    #logotype {
+      animation: logotype 5s linear infinite;
+    }
+    @keyframes logotype {
+      50% {
+        transform: translateY(4%);
+      }
+    }
+
+
+    #duck {
+        padding: 1em 10em 8em;
+        z-index: 5;
+        width: 30vw;
+        animation: duck 8s linear infinite;
+    }
+
+
+    /* Animation First */
+
+    @keyframes duck{
+      25% {
+        transform: translateX(-2%);
+      }
+      75% {
+        transform: translateX(2%);
+      }
+    }
+    
+    #coins {
+      animation: coins 5s linear infinite;
+    }
+    @keyframes coins {
+      5% {
+        transform: scale(0.015);
+      }
+    }
+    
+    #blobs {
+      transform: translateY(-15px);
+      animation: blobs 8s linear infinite;
+    }
+    @keyframes blobs {
+      25% {
+        transform: translateY(-15px) rotate(3deg);
+      }
+      75% {
+        transform: translateY(-15px) rotate(-3deg);
+      }
+    }

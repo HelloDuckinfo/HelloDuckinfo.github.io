@@ -1,82 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <!-- Metadatos básicos -->
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>HelloDuck </title>
+       <meta name="description" content="HelloDuck es una agencia creativa holística que ofrece soluciones innovadoras y simples para tus necesidades de branding y diseño.">
+   
+       <!-- Favicons -->
+       <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+       <link rel="apple-touch-icon" sizes="180x180" href="/path/to/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="/path/to/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="/path/to/favicon-16x16.png">
+   
+       <!-- Open Graph para Redes Sociales -->
+       <meta property="og:title" content="HelloDuck - ">
+       <meta property="og:description" content="Explora nuestras soluciones Krnal">
+       <meta property="og:image" content="https://helloduck.xyz/path/to/social-image.png">
+       <meta property="og:url" content="https://helloduck.xyz">
+       <meta property="og:type" content="website">
+   
+       <!-- Twitter Card -->
+       <meta name="twitter:card" content="summary_large_image">
+       <meta name="twitter:title" content="HelloDuck">
+       <meta name="twitter:description" content="Know everything">
+       <meta name="twitter:image" content="https://helloduck.xyz/path/to/social-image.png">
+   
+       <!-- Canonical URL -->
+       <link rel="canonical" href="https://helloduck.xyz">
+   
+       <!-- Estilos CSS -->
+       <link rel="stylesheet" href="CSS/ducks.css">
 
-<style>
+       <!-- Font & Icon Libraries -->
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMvdmtO7j9EN5crA8rXWl26iPah7tk31RWzFgiE" crossorigin="anonymous">
+       
 
-  @font-face {
-font-family: FormulaCondensed-Bold;
-src: url(FormulaCondensed-Bold.otf);
-}
-  html {
-  background: linear-gradient(to bottom right,orange, yellow);
-  min-height: 100vh;
-  display: grid;
-  place-items:center;
-}
+       <!-- Scripts JS (defer para cargar después de la página) -->
+       <script src="/path/to/main.js" defer></script>
+    
+  </head>
 
-body {
-  width: 1000px;
-  height: 666px;
-}
-h1{
-  margin: .1em .4 1px 5em;
-  font-family:'FormulaCondensed-Bold';
-  font-weight:500;
-  color:#fff;
-  font-size:7em;
-}
-  
-img {
-  position: absolute;
-}
+<body>
 
-#logotype {
-  animation: logotype 5s linear infinite;
-}
-@keyframes logotype {
-  50% {
-    transform: translateY(4%);
-  }
-}
-#phone {
-    padding: 1em 10em 8em;
-    z-index: 5;
-    width: 30vw;
-    animation: phone 8s linear infinite;
-}
-@keyframes phone {
-  25% {
-    transform: translateX(-2%);
-  }
-  75% {
-    transform: translateX(2%);
-  }
-}
-
-#coins {
-  animation: coins 5s linear infinite;
-}
-@keyframes coins {
-  5% {
-    transform: scale(0.015);
-  }
-}
-
-#blobs {
-  transform: translateY(-15px);
-  animation: blobs 8s linear infinite;
-}
-@keyframes blobs {
-  25% {
-    transform: translateY(-15px) rotate(3deg);
-  }
-  75% {
-    transform: translateY(-15px) rotate(-3deg);
-  }
-}
-</style>
-
-<body cz-shortcut-listen="true" data-new-gr-c-s-check-loaded="14.1190.0" data-gr-ext-installed="">
-  <h1> HELLO DUCK </h1>
-<div>
-   <img id="phone" src="—Pngtree—yellow rubber duck_13381103.png">
+<div class="center_div_duck"> 
+    <h1 class="hd_h1">HELLO DUCK</h1>
+   <img id="duck" src="IMG/—Pngtree—yellow rubber duck_13381103.png">
  <img id="blobs" src="https://contentservice.mc.reyrey.net/image_v1.0.0/?id=8ad76dda-da4d-5e98-83f3-5b2badc455f1&amp;638494855200335406"> 
 </div>
+
+</body>
+</html>
